@@ -1,0 +1,21 @@
+{
+  "app": "npx ts-node bin/iam.ts",
+  "context": {
+    "iam_account": "123456789012",
+    "base_policy_name": "CustomerABCBasePolicy",
+    "readonly_policy_name": "CustomerABCReadonlyPolicy",
+    "database_full_policy_name": "CustomerABCDatabaseAdminPolicy",
+    "develop_full_policy_name": "CustomerABCDevelopAdminPolicy",
+    "network_full_policy_name": "CustomerABCNetworkAdminPolicy",
+    "security_full_policy_name": "CustomerABCSecurityAdminPolicy",
+    "system_full_policy_name": "CustomerABCSystemAdminPolicy",
+    "admin_role_name": "CustomerABCAdminRole",
+    "iam_role_name": "CustomerABCIamRole",
+    "readonly_role_name": "CustomerABCReadonlyRole",
+    "database_full_role_name": "CustomerABCDatabaseAdminRole",
+    "develop_full_role_name": "CustomerABCDevelopAdminRole",
+    "network_full_role_name": "CustomerABCNetworkAdminRole",
+    "security_full_role_name": "CustomerABCSecurityAdminRole",
+    "system_full_role_name": "CustomerABCSystemFullRole"
+  }
+}
